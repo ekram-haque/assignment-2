@@ -109,3 +109,48 @@ margin-top: 10px;
   text-align: center;
   
 }
+
+/* plant lover section  */
+.plant-lover{
+  display: flex;
+  justify-content: space-between;
+  gap: auto;
+  margin-top: 200px;
+
+}
+
+
+
+.main-image{
+  width: 500px;
+  height: 597px;
+  
+}
+.badge{
+  width: 270px;
+  height: 270px;
+  position: relative;
+  top: -80%;
+  right: -70%;
+
+}
+.plant-lover-title{
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+}
+.plant-lover-des{
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin: 5px;
+  padding: 10px;
+  
+}
+.plant-lover-facts{
+  padding: 30px;
+  margin-left: 60px;
+ 
+
+}
+
+
