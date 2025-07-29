@@ -1,0 +1,47 @@
+
+.noto-serif-text-title {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+.max-width{
+  max-width: 1140px;
+  margin: 30px auto;
+}
+
+/* shared colored  */
+.title-color-primary{
+   color: #E95A08;
+}
+.des-color-primary{
+    color: rgba(0, 0, 0, 0.5);
+ 
+}
+
+/* nav styles  */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav img{
+  width: 135px ;
+  height: 82px;
+}
+nav ul{
+  display: flex;
+  gap: 15px;
+  list-style: none;
+ 
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
