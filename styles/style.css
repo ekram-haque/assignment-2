@@ -45,3 +45,23 @@ nav ul li a {
   text-decoration: none;
   color: black;
 }
+
+/* banner section here  */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-left{
+  
+}
+.banner-title{
+  font-size: 65px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 5px;
+  
+}
+.banner-description{
+  font-size: 22px;
+}
