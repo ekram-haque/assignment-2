@@ -161,7 +161,7 @@ nav ul li a {
   .plant-cart-description {
     font-size: 14px;
   }
-  br {
+  .plant-cart br {
     display: none;
   }
   .flowers {
@@ -169,6 +169,12 @@ nav ul li a {
     gap: 20px;
     justify-content: center;
     align-items: center;
+  }
+  .flower-item{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .flower-img {
     width: 171px;
@@ -250,6 +256,9 @@ nav ul li a {
   }
   .plant-lover-container {
     margin-top: 18px;
+  }
+  .plant-lover-container br{
+    display: none;
   }
 }
 
@@ -416,5 +425,9 @@ nav ul li a {
   .footer-des {
     display: block;
     margin-top: 16px;
+  }
+  .icons{
+    margin-top: -25px;
+    margin-left: 20px;
   }
 }
